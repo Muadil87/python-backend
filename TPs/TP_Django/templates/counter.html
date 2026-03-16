@@ -1,0 +1,7 @@
+<h1>Word Counter Result</h1>
+<p>Words: {{ amount }}</p>
+<form method='get' action='/counter'>
+    <textarea name='text' rows='10' cols='50' placeholder='Paste your text here'>{{ text }}</textarea><br>
+    <input type='submit' value='Recount'>
+</form>
+<p><a href='/'>Back</a></p>
